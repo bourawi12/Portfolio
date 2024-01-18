@@ -303,7 +303,9 @@ img {
 }
 
 /* Add shadow header */
-
+.shadow-header{
+  box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12) ;
+}
 
 /* Active link */
 
@@ -320,11 +322,13 @@ img {
 .home__perfil{
   position: relative;
   justify-self: center;
+  padding: 100px;
 }
 
 .home__image{
-  widows: 220px;
+  width: 220px;
   position: relative;
+  padding: auto;
   z-index: 10;
 }
 
@@ -342,9 +346,116 @@ img {
   right: -.75rem;
   border: 4px solid var(--black-color);
   z-index: 5;
+  transition: background-color .4s ;
 }
-/* Animate scroll icon */
 
+.home__arrow,
+.home__line{
+  position: absolute;
+  filter: invert(1);
+  width: 50px;
+  transition: filter .4s;
+}
+
+.home__arrow{
+  left: 40%;
+  bottom: -4rem;
+}
+
+.home__line{
+  right:-2rem;
+  bottom: -.5rem;
+}
+
+.home__perfil .geometric-box{
+  top: 2.5rem;
+  left: -.7rem;
+  z-index: 11;
+}
+
+.home__social{
+  height: max-content;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+  bottom: 9rem;
+  margin: auto 0;
+  display: grid;
+  row-gap: 1rem;
+}
+.home__social-link{
+  background-color: var(--black-color-light);
+  color: var(--white-color);
+  font-size: 1.25rem;
+  padding: 6px;
+  display: grid;
+  place-items: center;
+  transition: background-color .3s;
+
+}
+
+.home__social-link:hover{
+  background: var(--black-color);
+}
+
+.home__info{
+  margin-top: 4rem;
+}
+
+.home__description{
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 1.5rem;
+
+}
+
+.home__description b {
+  background: linear-gradient(90deg,hsla(14, 98%, 50%, .3),hsla(14, 98%, 50%, 0));
+  
+}
+
+.home__scroll{
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.home__scroll-text{
+  display: none;
+}
+
+.home__scroll-box{
+  background-color: var(--black-color);
+  color: var(--white-color);
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color;
+}
+
+.home__scroll-box i{
+  animation: scroll-down 3s infinite;
+}
+
+/* Animate scroll icon */
+@keyframes scroll-down{
+  0%{
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(.6rem);
+    opacity: 0;
+  }
+}
 
 /*=============== BUTTON ===============*/
 
