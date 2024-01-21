@@ -164,7 +164,7 @@
          </section>
 
          <!--==================== PARCOURS ====================-->
-         <section class="parcours section">
+         <section class="parcours section" id="parcours">
             <h2 class="section__title-2">
                <span>Parcours</span>
             </h2>
@@ -256,6 +256,9 @@
                         <textarea name="user_message" id="message"  class="contact__input" required placeholder="Message"></textarea>
                         <label for="message" class="contact__label">Message</label>
                      </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
                      <button type="submit" class="contact__button button">
                         <i class="ri-send-plane-line"></i> Send Message
                      </button>
@@ -297,17 +300,45 @@
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#parcours" class="footer__link">Parcours</a>
+               </li>
+
+               <li>
+                  <a href="#compétence" class="footer__link">Compétence</a>
+               </li>
+
+               <li>
+                  <a href="#expérience" class="footer__link">Expérience</a>
+               </li>
+
+               <li>
+                  <a href="#manifestation" class="footer__link">Manifestation</a>
+               </li>
+
+               <li>
+                  <a href="#matiéres" class="footer__link">Matiéres</a>
+               </li>
+            </ul>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
       
       <!--=============== EMAIL JS ===============-->
-      
+      <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
