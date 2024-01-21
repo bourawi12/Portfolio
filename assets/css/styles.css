@@ -259,6 +259,7 @@ body.dark-theme{
 .nav__toggle{
   width: 32px;
   height: 32px;
+  
   background-color: var(--black-color);
   color: var(--white-color);
   display: grid;
@@ -1343,7 +1344,7 @@ img.img_article {
 
   .nav{
     height: calc(var(--header-height) + 2rem);
-    column-gap: 4rem;
+    column-gap: 0rem;
   }
   .nav__close,
   .nav__toggle,
@@ -1400,7 +1401,7 @@ img.img_article {
     align-items: center;
     padding-block: 5.5rem;
 }
-home__perfil{
+.home__perfil{
   grid-column: 2 / 3;
   grid-row: 1 / 3;
 
