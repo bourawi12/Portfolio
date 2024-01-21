@@ -1264,6 +1264,9 @@ img.img_article {
   .contact__data .section__title-2{
     transform: translateX(0);
   }
+  .home__scroll-text {
+    display: none;
+  }
 }
 
 /* For medium devices */
@@ -1303,6 +1306,9 @@ img.img_article {
   }
   .dark-theme .contact__social-arrow{
     filter: none;
+  }
+  .home__scroll-text {
+    display: none;
   }
 }
 
