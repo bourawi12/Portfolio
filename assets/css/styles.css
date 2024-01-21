@@ -758,6 +758,10 @@ img {
   position: relative;
   margin-bottom: .75rem;
 }
+.projects__image#exp1_img{
+  position: relative;
+  margin: auto;
+}
 
 .projects__button{
   position: absolute;
@@ -805,6 +809,12 @@ img {
 .projects__card:hover{
   background-color: var(--white-color);
 }
+
+.projects__card#exp1{
+  background-color: var(--white-color);
+}
+
+
 
 
 /*=============== CONTACT ===============*/
@@ -1014,7 +1024,7 @@ img {
   bottom: -1.6rem;
   left: 0;
 }
-/*=============== FOOTER ===============*/
+/*=============== quiz ===============*/
 .quiz__container {
   position: relative;
   margin: auto;
