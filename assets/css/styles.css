@@ -1271,7 +1271,21 @@ img.img_article {
     display: flex;
     justify-content: center;
     column-gap: 0.5rem;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+  }
+  
+  .contact__data#contact_mani{
+    position: relative;
+    align-items: center;
+    height: 430px;
+    width: 80%;
+    
+    padding: 3rem 1.5rem 3.5rem;
+    margin:auto;
+    border-bottom: 4px solid var(--first-color);
+    z-index: 5;
+    transition: background-color .4s;
+  
   }
 }
 

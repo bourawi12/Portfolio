@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <title>Inscription Isaas</title>
+</head>
+
+<body>
+    <header>
+        <img class="img_center" src="../images/logo IIT.png" alt="logo IIT" height="80px">
+        <h1> Université Nord Américaine Privée: Institut International de Technologie </h1>
+        <img id="img_iit" src="../images/campus.jfif" alt="IIT" width="225" height="220">
+        <nav>
+            <a href="../index.html">Actualité</a>
+            <a id="menu_actuel" href="inscription.html">Inscription</a>
+            <a href="galerie.html">Galerie</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <form action="">
+                <fieldset>
+                    <legend>Inscription étudiant</legend>
+                    <table>
+                        <tr>
+                            <td><label for="nom">Nom : </label></td>
+                            <td><input type="text" name="Firstname" id="nom"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="prenom">Prenom : </label></td>
+                            <td><input type="text" name="Lastname" id="prenom"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="naissance">Naissance : </label></td>
+                            <td><input type="date" name="naissance" id="naissance"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Sexe : </label></td>
+                            <td>
+                                <input type="radio" name="gender" id="masculin" value="1" checked="checked"><label
+                                    for="masculin">Masculin</label>
+                                <input type="radio" name="gender" id="feminin" value="2"><label
+                                    for="feminin">Feminin</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="pays">Pays : </label></td>
+                            <td>
+                                <select name="pays" id="country">
+                                    <option value="" disabled>aucune valeur</option>
+                                    <option value="tn">Tunisie</option>
+                                    <option value="fr">France</option>
+                                    <option value="en">Angleterre</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><label>Langues : </label></td>
+                            <td>
+                                <input type="checkbox" name="langues" id="langue1" value="arable"><label
+                                    for="langue1">Arabe</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                            <input type="checkbox" name="langues" id="langue2" value="français"><label
+                                for="langue2">Français</label><br>
+                                </td>
+                        </tr>
+                        <tr> <td>  <input type="checkbox" name="langues" id="langue3" value="anglais"><label
+                                for="langue2">Anglais</label><br> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Image :</label></td>
+                            <td><input type="file" name="image" id="image" accept="image/*"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Valider" id="valider"></td>
+                        </tr>
+                    </table>
+
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>
+            Route M'harza Km.1.5, Sfax <br>
+            Tél : +216 74 465 020 <br>
+            MAIL : contact.iit@iit.tn
+        </p>
+    </footer>
+</body>
+
+</html>

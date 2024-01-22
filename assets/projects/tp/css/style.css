@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+
+}
+header{
+    background-color: rgb(179, 154, 124);
+    width: 1000px;
+    margin: auto;
+}
+.img_center{
+    display: block;
+    margin: auto;
+}
+#img_iit{
+    width:100%;
+}
+nav{
+    width : 60%;
+    margin: auto;
+}
+nav a{
+    width: 100px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+
+
+}
+#menu_actuel{
+    background-color: rgb(228, 200, 166);
+}
+main{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    width: 1000px;
+    background-color: rgb(228, 200, 166);
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+article{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+}
+main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-decoration: underline dotted red;
+    font-style: italic;
+    font-weight: bold;
+}
+main p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    text-indent: 20px;
+}
+article img{
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+input[type="text"],input[type="date"],select{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+.galerie{
+    padding: 3px;
+    border: 10px solid white;
+    box-shadow: 5px 10px 5px black;
+}
+
+@media only screen and (max-width: 1024px){
+    header{
+        background-color: black;
+        color: white; 
+    }
+    header p{
+        background-color: black;
+        color: white;
+    }
+    header h1{
+        background-color: black;
+        color: white;
+    }
+    footer,main,p{
+        background-color: black;
+        color: white;
+    }
+    header p,main p{
+        background-color: black;
+        color: white;
+    }
+    header nav a {
+        color: white;
+    }
+    #menu_actuel{
+        background-color: black;
+    }
+}
