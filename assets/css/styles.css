@@ -1136,6 +1136,7 @@ img.img_article {
 .quiz__container {
   position: relative;
   margin: auto;
+ 
   width: 450px;
   padding: 20px;
   margin-top: 80px;
@@ -1742,4 +1743,10 @@ img.img_article {
 }
 .iit{
   background-color: black;
+}
+.quiz1{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
