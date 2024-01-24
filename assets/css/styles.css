@@ -278,7 +278,7 @@ body.dark-theme{
 @media  screen and (max-width:1150px) {
   .nav__menu{
     position: fixed;
-    top:-100%;
+    top:-105%;
     left:0;
     background-color:hsla(0, 0%, 0%, .75) ;
     width: 100%;
@@ -1733,4 +1733,13 @@ img.img_article {
   margin: auto;
 }
 
+}
+.imageiit{
+  float: left;
+  justify-self: center;
+  align-self: center;
+  padding: auto;
+}
+.iit{
+  background-color: black;
 }
